@@ -1,0 +1,629 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+
+}
+
+
+
+/* body{ */
+/* height: 1200px; */
+/* width:1400px ; */
+/* background-image:url('platter-g088f532a8_1920.jpg') ; */
+/* } */
+.navbar {
+    width: 1520px;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+}
+
+.navbar li {
+
+    float: left;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    list-style: none;
+
+}
+
+.navbar ul {
+    background-color: #f3ff0adc;
+    overflow: auto;
+    margin-top: 0px;
+
+
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+
+
+}
+
+.navbar a:hover {
+    color: rgb(245, 13, 13);
+}
+
+#title {
+
+    padding: 0px 100px;
+    margin: 0px 500px;
+    width: 400px;
+    height: 50px;
+    color: rgb(242, 255, 1);
+    font-size: 100px;
+    position: absolute;
+    top: 80px;
+
+
+}
+
+/* 
+#disheading{
+    position: absolute;
+    top: 100px;
+    left:0px;
+}*/
+
+
+
+.discription {
+
+    background-color: #fcfcf9ab;
+
+    margin: 300px 50px;
+    width: 500px;
+    padding: 20px 20px;
+    float: left;
+    height: 350px;
+    color: black;
+    font-size: 20px;
+
+
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 100px;
+
+
+
+}
+
+#adress {
+    position: absolute;
+
+    left: 900px;
+
+
+
+
+}
+
+.discription:hover {
+    box-shadow: 0px 0px 12px #f1f107;
+
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+
+.container {
+    background-color: hotpink;
+    background-image: url('platter-g088f532a8_1920.jpg');
+    height: 1100px;
+    width: 1520px;
+    margin: 0%
+}
+
+#divisonincontainer {
+    margin-top: 0px;
+    margin-left: 0px;
+
+
+}
+
+#visitinsta {
+    background-color: rgba(233, 221, 221, 0.593);
+    position: absolute;
+    top: 1000px;
+    left: 650px;
+    width: 198px;
+    padding: 12px 12px;
+}
+
+#visitnowbutton {
+    font-size: large;
+    height: 30px;
+    width: 90px;
+    margin: 5px 40px;
+    background-color: yellow;
+
+}
+
+#visitnowbutton a {
+    text-decoration: none;
+}
+
+#visitnowbutton button:hover {
+    background-color: #e2e2de;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px #e2e2de;
+
+}
+
+/*css for contact us page*/
+#contact_us {
+    background-image: url("food.jpg");
+    height: 700px;
+    width: 850px;
+}
+
+#contactform {
+    height: 200px;
+    width: 300px;
+    margin: 150px 100px;
+    padding: 0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 35px;
+    color: white;
+}
+
+#name {
+    margin: 20px 10px;
+    height: 30px;
+    width: 350px;
+}
+
+.email {
+    margin: 20px 10px;
+
+    height: 30px;
+    width: 350px;
+
+}
+
+#number {
+    margin: 20px 10px;
+
+    height: 30px;
+    width: 350px;
+
+
+}
+
+.headings {
+    margin: 00px 130px;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+#heading {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+    color: white;
+
+}
+
+#connect {
+    margin: 0px 130px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+.submitbtn {
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 30px;
+    transition: width 3s;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.submitbtn:hover {
+    cursor: pointer;
+    background-color: rgb(240, 230, 95);
+    width: 100px;
+
+}
+
+
+#btndiv {
+    position: absolute;
+    top: 900px;
+    left: 700px;
+
+
+}
+
+
+/* css for gallery page */
+
+.pagetwo {
+    height: 1100px;
+    width: 1520px;
+
+}
+
+#galleryheading {
+    text-align: center;
+    /* margin: 20px 436px; */
+    font-family: poppins_r;
+
+    font-size: 20px;
+}
+
+#galleryheading2 {
+    /* margin: 20px 550pxpx; */
+    text-align: center;
+    margin: 15px 0px;
+    font-family: poppins_r;
+    font-size: 40px;
+    font-style: italic;
+
+
+}
+
+.headsgallery {
+    position: absolute;
+    top: 90px;
+    left: 550px;
+
+
+
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px 0px;
+    width: 100%;
+    height: 450px
+}
+
+.photos {
+    width: 200px;
+    height: 200px;
+
+}
+
+.images {
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.photos :hover {
+    cursor: pointer;
+    width: 280px;
+    height: 280px;
+    position: sticky;
+    z-index: 20;
+
+}
+
+
+
+
+
+/* 
+
+
+.items {
+    height: 150px;
+    width: 300px;
+    border: 3px solid;
+    margin: 20px;
+    /* padding: 3px 2px; */
+
+
+
+/* 
+.items :hover {
+
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    z-index: 20;
+
+
+
+
+} */
+
+
+
+
+/* css for login page*/
+.pagethree {
+    background-image: url("blackbg.jpg");
+    height: 760px;
+    width: 850px;
+
+
+}
+
+#loginheading {
+    text-align: center;
+    position: absolute;
+    left: 830px;
+    top: 90px;
+    width: 500px;
+
+}
+
+#loginbox {
+    text-align: center;
+    position: absolute;
+    left: 900px;
+    top: 250px;
+    width: 500px;
+}
+
+#loginform {
+    height: 350px;
+    width: 350px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: rgb(9, 9, 9);
+}
+
+
+
+
+
+
+#pass {
+    margin: 20px 0px;
+
+    height: 30px;
+    width: 350px;
+
+
+}
+
+#loginhead {
+    color: rgb(9, 9, 9);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60PX;
+    font-style: normal;
+}
+
+/*css for sign up page*/
+
+.pagefour {
+    height: 1000px;
+    width: 850px;
+    background-image: url("signupbg.jpg");
+    background-position-x: 10000px;
+
+
+}
+
+
+#signupcontainer {
+    background-color: #4ecb0095;
+    height: 550px;
+    width: 1000px;
+    margin: 0px 510px;
+    padding: 0px 0px;
+    position: relative;
+    top: 150px;
+
+}
+
+#signupform {
+    height: 500px;
+    width: 800px;
+    margin: 0px 130px;
+    padding: 80px 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(13, 11, 11);
+}
+
+#signuphead {
+    width: 500px;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: rgb(13, 11, 11);
+    position: relative;
+    top: 100px;
+    left: 900px;
+}
+
+
+.paswd {
+    width: 150px;
+    height: 25px;
+    margin: 10px 5px;
+}
+
+.title {
+    margin-top: 0px;
+}
+
+#maincontainer {
+    display: flexbox;
+    flex-direction: down;
+}
+
+
+#footer {
+    height: 30px;
+    width: 1510px;
+    color: #060606;
+    padding-left: 600px;
+    font-size: 16px;
+    align-items: center;
+    background-color: rgba(165, 165, 53, 0.442);
+}
+
+.mainfooter {
+    height: 200px;
+    width: 100%;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f3ff0adc;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 900px;
+    padding-top: 20px;
+}
+
+.social li {
+    margin-top: 5px;
+    list-style: none;
+    position: relative;
+    left: -50px;
+    top: 10px;
+    cursor: pointer;
+
+}
+
+.info li {
+    margin-top: 5px;
+    list-style: none;
+    position: relative;
+    left: -50px;
+    top: 10px;
+    cursor: pointer;
+
+}
+
+.response li {
+    margin-top: 5px;
+    list-style: none;
+    position: relative;
+    left: -50px;
+    top: 10px;
+    cursor: pointer;
+
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider-images {
+    position: absolute;
+    width: 400%;
+    height: 500px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-images img {
+    width: 25%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.slider-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.prev-btn,
+.next-btn {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background-color: transparent;
+}
+
+
+
+.slider {
+    background-size: cover;
+    position: relative;
+    top: 80px;
+
+}
+
+
+
+
+@media only screen and (max-width:477px) {
+    .navbar {
+        width: 390px;
+    }
+
+    #title {
+        font-size: 70px;
+        top: 300px;
+        margin: 0px 0px;
+    }
+
+    .discription {
+        top: 200px;
+    }
+
+    .container {
+        width: 390px;
+
+    }
+
+    .conn {
+        width: 390px;
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+
+        top: 200px;
+    }
+
+    .mainfooter {
+        width: 390px;
+
+    }
+
+    #footer {
+
+    width: 390px;}
+
+    p {
+      margin-left: 0px;
+      margin-top: 0px;
+   
+    }
+    
